@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="main-window">
         <main>{children}</main>
       </div>
