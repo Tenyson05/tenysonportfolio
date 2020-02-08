@@ -1,10 +1,16 @@
 import React from "react";
+import { Button } from "reactstrap"
+
 import "../styles/layout.css";
 
 const button = (props) => (
-	<button className="button-layout" onClick={() => props.onClick()}>
+	<Button className="button-layout" 
+		to={props.go}
+		style={{ padding: props.size}}
+		
+		>
 		{props.label}
-	</button>
+	</Button>
 )
 
 export default button
