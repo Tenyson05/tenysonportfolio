@@ -5,6 +5,8 @@ import "../styles/layout.css"
 import Game from "../images/tower-pc.png"
 import Button from "../components/button"
 
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const Header = () => (
   <header>
@@ -19,7 +21,8 @@ const Header = () => (
 			<p id="header-text">03. <a href="/">Work</a></p>
 			<p id="header-text">04. <a href="/">Contact</a></p>
 			<Button 
-			onClick ="/"
+			size="0.6em 2em"
+			go="/homeeee"
 			label="Resume"/>
 		</div>
     </div>
