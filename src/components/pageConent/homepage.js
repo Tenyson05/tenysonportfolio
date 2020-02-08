@@ -9,13 +9,13 @@ const homePage = () => (
 		<h3>Rojah Lewis.</h3 >
 		<h2>Developer, Tech & Cyber Security enthusiast</h2>
 		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.
 		</p>
-			<Button
-				size="1.5em 4em"
-				label="Get in touch"
-			></Button>
-	 </section>
+		<Button
+			size="1.5em 4em"
+			label="Get in touch"
+		></Button>
+	</section>
 	
 )
 
