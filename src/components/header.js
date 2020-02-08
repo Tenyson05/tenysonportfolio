@@ -16,14 +16,15 @@ const Header = () => (
 		</div>
 		
 		<div className="nav-right-section">
-			<p id="header-text">01. <a href="/">About</a></p>
+			<p id="header-text">01. <a href="/#about">About</a></p>
 			<p id="header-text">02. <a href="/">Skills</a></p>
 			<p id="header-text">03. <a href="/">Work</a></p>
 			<p id="header-text">04. <a href="/">Contact</a></p>
 			<Button 
-			size="0.6em 2em"
-			go="/homeeee"
-			label="Resume"/>
+				size="0.6em 2em"
+				go="/homeeee"
+				label="Resume"
+			/>
 		</div>
     </div>
   </header>
