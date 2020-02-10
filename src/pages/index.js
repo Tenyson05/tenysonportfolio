@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Homepage from "../components/pageConent/homepage"
 import About from "../components/pageConent/about"
+import Skills from "../components/pageConent/skills"
+import Work from "../components/pageConent/work"
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -13,6 +15,8 @@ const IndexPage = () => (
     <SEO title="Tenyson" />
 	<Homepage />
 	<About />
+	<Skills />
+	<Work />
   </Layout>
 )
 
