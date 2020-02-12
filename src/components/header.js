@@ -22,7 +22,7 @@ const Header = () => (
 			<p id="header-text">04. <a href="/">Contact</a></p>
 			<Button 
 				size="0.6em 2em"
-				go="/homeeee"
+				go="/home"
 				label="Resume"
 			/>
 		</div>
