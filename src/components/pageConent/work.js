@@ -2,9 +2,11 @@ import React from "react"
 
 import Github from "../../images/github.svg"
 import Extsign from "../../images/sign.svg"
+import "../../styles/work.css"
+
 const work = () => (
-	 <section className="work">
-		 <h1 className="page-heading"> Work</h1>
+	 <section id="work" className="work">
+		 <h1 className="page-heading">Work</h1>
 		 <div classname="sub-work">
 			 <div className="projects">
 				<div className="project-cards">
