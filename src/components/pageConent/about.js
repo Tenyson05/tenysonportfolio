@@ -1,11 +1,11 @@
 import React from "react";
 
-import "../../styles/layout.css"
+import "../../styles/about.css"
 import teny from "../../images/teny.jpg"
 
 
 const about = () => (
-	<section className="about">
+	<section id="about" className="about">
 		<h1 className="page-heading">About</h1>
 		<div className="about-info">
 			<p>
