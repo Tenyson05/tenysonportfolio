@@ -6,7 +6,7 @@ import "../../styles/work.css"
 
 const work = () => (
 	 <section id="work" className="work">
-		 <h1 className="page-heading">Work</h1>
+		 <h3 className="page-heading">Work</h3>
 		 <div classname="sub-work">
 			 <div className="projects">
 				<div className="project-cards">
