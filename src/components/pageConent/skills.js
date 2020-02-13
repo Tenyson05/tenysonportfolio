@@ -23,10 +23,11 @@ import Metasploit from "../../images/metasploit.png";
 import Arduino from "../../images/Arduino.svg.png"
 
 import "../../styles/skills.css"
+import "../../styles/layout.css"
 
 const skills = () => (
 	<section id="skills" className="skills">
-		<h1 className="page-heading">Skills</h1>
+		<h3 className="page-heading">Skills</h3>
 		<div className="skills-center">
 			<div className="development">
 				<div className="icon-row">
