@@ -1,0 +1,26 @@
+.main-window {
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+#root {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+}
+
+.main {
+	width: 100%;
+    max-width: 1600px;
+    min-height: 100vh;
+    counter-reset: section 0;
+    padding: 200px 150px;
+    margin: 0px auto;
+}
+
+.main.fillHeight {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
