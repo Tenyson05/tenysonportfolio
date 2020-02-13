@@ -22,8 +22,10 @@ import Github from "../../images/github.svg";
 import Metasploit from "../../images/metasploit.png";
 import Arduino from "../../images/Arduino.svg.png"
 
+import "../../styles/skills.css"
+
 const skills = () => (
-	<section className="skills">
+	<section id="skills" className="skills">
 		<h1 className="page-heading">Skills</h1>
 		<div className="skills-center">
 			<div className="development">
