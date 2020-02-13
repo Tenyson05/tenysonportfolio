@@ -5,25 +5,33 @@
  * div with role="group"
 */
 
-html, body, #___gatsby {
-	height: 100%;
-	background-color: #2F3845;
-	padding: 15px;
-	font-family: Calibre, "San Francisco", 
-	"SF Pro Text", -apple-system, system-ui, 
-	BlinkMacSystemFont, Roboto, "Helvetica Neue", 
-	"Segoe UI", Arial, sans-serif;
-	font-size: 1em;
 
+html {
+	box-sizing: border-box;
+    width: 100%;
 }
 
-body {
-	margin: 0px;
+ body {
 	width: 100%;
     min-height: 100%;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    background-color: #0a192f;
+    color: #333f58;
+    line-height: 1.3;
+    font-family: Futura, "Calibre", "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px;
 }
 
-/* div[role="group"][tabindex] {
+#root {
+	min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 100%;
+}
+
+
+div[role="group"][tabindex] {
     height: 100%;
-} */
+}
