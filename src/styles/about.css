@@ -1,0 +1,128 @@
+/* About page styling start */
+
+.about {
+	/* border: 1px solid;
+	flex-direction: column;
+	max-width: 1500px;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 20px;
+	margin: 0px auto;
+	min-height: 50px;
+	height: 900px; */
+
+	max-width: 1000px;
+    position: relative;
+    margin: 0px auto;
+    padding: 150px 0px;
+}
+
+.page-heading {
+	/* position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 48px;
+	width: 50%;
+	white-space: nowrap;
+	margin-block-end: 1em;
+	margin: 10px 0px 40px;
+	color: #e6f1ff;
+	opacity: 0.85;
+	border: 1px solid aqua; */
+
+	position: relative;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 32px;
+    margin: 10px 0px 40px;
+}
+
+.page-heading::before {
+	counter-increment: section 1;
+    content: "0" counter(section) ". ";
+	color: #64ffda;
+	margin-right: 10px;
+}
+
+.page-heading::after {
+	content: "";
+	display: block;
+	height: 1px;
+	background-color: #64ffda;
+	/* position: relative; */
+	top: 4px;
+	margin-left: 10px;
+	margin-left: 10px;
+	/* box-sizing: inherit; */
+	width: 100%;
+
+}
+
+.about-info {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	/* max-width: 1000px; */
+	/* border: 1px solid; */
+	height: 80%;
+	overflow: hidden;
+}
+
+.about-info > p {
+	color: #e6f1ff;
+	display: inline-block;
+	width: 50%;
+	margin-right: 50px;
+	word-wrap: normal;
+	text-indent: 0;
+}
+
+.about-img {
+	height: 50px;
+	width: 50px;
+}
+
+/* .about-picture {
+	position: relative;
+	height: 10px;
+	width: 40%;
+	max-width: 350px;
+	border: 1px solid;
+} */
+
+.about-picture > img {
+	
+	position: relative;
+	/* max-width: 443%;
+	max-height: 517%; */
+	top: 5px;
+	left: 100px;
+	width: 800%;
+	height: 950%; 
+	object-fit: cover;
+	object-position: center center;
+	vertical-align: middle;
+	/* background: ; */
+}
+
+/* .about-picture > img::before {
+	top: 5px;
+    left: 110px;
+    z-index: -1;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #64ffda;
+	border-image: initial;
+	border: 1px solid;
+} */
+
+
+
+
+
+/* About page styling end */
