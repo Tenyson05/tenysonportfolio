@@ -109,6 +109,10 @@ a {
     list-style: none;
 }
 
+.header-text:hover {
+	color: #64ffda;
+}
+
 li {
 	display: list-item;
     text-align: -webkit-match-parent;
@@ -130,7 +134,7 @@ ol {
     background-color: transparent;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
     line-height: 1;
-    cursor: pointer;
+    /* cursor: pointer; */
     margin-left: 10px;
     font-size: 13px;
     border-width: 1px;
@@ -140,4 +144,12 @@ ol {
     border-radius: 3px;
     padding: 0.75rem 1rem;
     text-decoration: none;
+}
+
+.button-layout:hover {
+    cursor: pointer;
+	background: #172a45;
+    text-decoration: none;
+    -webkit-tap-highlight-color: #333f58;
+    /* -webkit-font-smoothing: antialiased; */
 }
