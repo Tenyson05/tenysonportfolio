@@ -24,3 +24,63 @@
     padding-top: 0px;
     padding-bottom: 0px;
 }
+
+
+.side-links {
+	width: 40px;
+	position: fixed;
+	bottom: 0px;
+	left: 40px;
+	right: auto;
+	z-index: 10;
+	color: rgb(168, 178, 209);
+}
+
+.social-links {
+	display: flex;
+	flex-direction: column;
+	-webkit-box-direction: center;
+	align-items: center;
+	list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.list-icon li:last-of-type {
+	margin-bottom: 30px;
+}
+
+.list-icon {
+	padding: 10px;
+	
+}
+
+.list-icon a {
+	display: inline-block;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.list-icon img {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+	vertical-align: middle;
+}
+
+.social-links::after {
+	content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: rgb(168, 178, 209);
+    margin: 0px auto;
+}
