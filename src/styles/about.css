@@ -60,10 +60,8 @@
 	position: relative;
 	display: flex;
 	flex-direction: row;
-	/* max-width: 1000px; */
-	/* border: 1px solid; */
-	height: 80%;
-	overflow: hidden;
+	height: 100%;
+	overflow: visible;
 }
 
 .about-info > p {
