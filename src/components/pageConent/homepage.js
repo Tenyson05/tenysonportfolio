@@ -15,11 +15,13 @@ const homePage = () => (
 			</p>
 		</div>
 		<div>
-		<Button 
-			size="0.9em 2.5em"
-			go="/home"
-			label="Resume"
-		/>
+			<a href="mailto:rojahog@hotmail.com">
+				<Button 
+				size="2em 3em"
+				label="Get In Touch "
+				/>
+			</a>
+		
 		</div>
 		
 	</section>
