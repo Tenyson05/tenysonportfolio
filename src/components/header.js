@@ -1,12 +1,25 @@
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import React from "react"
 import "../styles/layout.css"
 
 import Game from "../images/tower-pc.png"
 import Button from "../components/button"
+import $ from "jQuery"
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
+$(window).scroll(function() {    
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 200) {
+        $(".main-header").addClass("main-header-alt");
+    } else {
+        $(".main-header").removeClass("main-header-alt");
+    }
+});
+
+
+
+// window.addEventListener("scroll", scrollView(), false);
 
 const Header = () => (
   <header className="main-header">
@@ -32,11 +45,14 @@ const Header = () => (
 				</li>
 			</ol>
 			<div>
+				<a href="https://www.twitch.tv/pwnstarzdotcom">
 				<Button 
 					size="0.6em 2em"
 					go="/home"
 					label="Resume"
 				/>
+				</a>
+				
 			</div>
 			
 		</div>
@@ -53,4 +69,4 @@ const Header = () => (
 //   siteTitle: ``,
 // }
 
-export default Header
+export default Header;
