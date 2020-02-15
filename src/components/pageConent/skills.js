@@ -29,7 +29,7 @@ const skills = () => (
 	<section id="skills" className="skills">
 		<h3 className="page-heading">Skills</h3>
 		<div className="skills-center">
-			<div className="development">
+			<div className="tools">
 				<div className="icon-row">
 					<img src={ Css } alt="CSS"/>
 					<img src={ Dioc } alt="DigitalOcean"/>
