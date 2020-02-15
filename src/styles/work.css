@@ -108,4 +108,14 @@
     margin-right: 15px;
 }
 
-/* work page styling end */
+.project-cards:hover {
+	display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(3px) translateY(-7px);
+    transform: perspective(3px) translateY(-7px);
+	box-shadow: 0 0 1px #172a45;
+	-webkit-font-smoothing: antialiased;
+	transition-duration: 0.5s;
+	
+	
+}
