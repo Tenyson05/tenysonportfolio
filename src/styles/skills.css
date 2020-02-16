@@ -23,14 +23,9 @@
 
 .icon-row>img{
 	margin: 30px;
-	/* background-color: transparent; */
 	width: 80px;
 	height: 80px;
 	position: relative;
-	filter: grayscale(100%);
 }
 
-.icon-row>img:hover {
-	filter: none;
-}
 
