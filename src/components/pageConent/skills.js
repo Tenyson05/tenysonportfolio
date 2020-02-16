@@ -27,36 +27,36 @@ import "../../styles/layout.css"
 
 const skills = () => (
 	<section id="skills" className="skills">
-		<h3 className="page-heading">Skills</h3>
+		<h3 className="page-heading">My Skills</h3>
 		<div className="skills-center">
 			<div className="tools">
 				<div className="icon-row">
-					<img src={ Css } alt="CSS"/>
-					<img src={ Dioc } alt="DigitalOcean"/>
-					<img src={ Datagrip } alt="Datagrip"/>
-					<img src={ Django } alt="Django"/>
-					<img src={ Azure } alt="Azure"/>
-					<img src={ Mysql } alt="Mysql"/>
-					<img src={ Figma } alt="Django"/>
+					<img src={ Css } alt="CSS" title="CSS"/>
+					<img src={ Dioc } alt="DigitalOcean" title="Digital Ocean"/>
+					<img src={ Datagrip } alt="Datagrip" title="Datagrip" />
+					<img src={ Django } alt="Django" title="Django"/>
+					<img src={ Azure } alt="Azure" title="Azure"/>
+					<img src={ Mysql } alt="Mysql" title="MySQL"/>
+					<img src={ Figma } alt="Figma" title="Figma"/>
 					
 				</div>
 				<div className="icon-row">
-					<img src={ Flutter } alt="Flutter"/>
-					<img src={ Gatsby } alt="Gatsby"/>
-					<img src={ Gitlab } alt="Gitlab"/>
-					<img src={ Github } alt="Github"/>
-					<img src={ Linux } alt="Linux"/>
-					<img src={ Metasploit } alt="Metasploit"/>
-					<img src={ nginx } alt="nginx"/>
+					<img src={ Flutter } alt="Flutter" title="Flutter"/>
+					<img src={ Gatsby } alt="Gatsby" title="Gatsby"/>
+					<img src={ Gitlab } alt="Gitlab" title="GitLab"/>
+					<img src={ Github } alt="Github" title="Github"/>
+					<img src={ Linux } alt="Linux" title="Linux"/>
+					<img src={ Metasploit } alt="Metasploit" title="Metasploit"/>
+					<img src={ nginx } alt="nginx" title="Nginx"/>
 				</div>
 				<div className="icon-row">
-					<img src={ Nodejs } alt="Nodejs"/>
-					<img src={ Postman } alt="Postman"/>
-					<img src={ Powershell } alt="Powershell"/>
-					<img src={ Python } alt="Python"/>
-					<img src={ react } alt="react"/>
-					<img src={ JS } alt="JavaScript"/>
-					<img src={ Arduino } alt="Arduino"/>
+					<img src={ Nodejs } alt="Nodejs" title="Nodejs"/>
+					<img src={ Postman } alt="Postman" title="Postman"/>
+					<img src={ Powershell } alt="Powershell" title="Powershell"/>
+					<img src={ Python } alt="Python" title="Python"/>
+					<img src={ react } alt="react" title="React"/>
+					<img src={ JS } alt="JavaScript" title="JavaScript"/>
+					<img src={ Arduino } alt="Arduino" title="Arduino"/>
 				</div>
 				
 			</div>
