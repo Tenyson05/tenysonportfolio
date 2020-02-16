@@ -84,3 +84,40 @@ li {
     background-color: rgb(168, 178, 209);
     margin: 0px auto;
 }
+
+.social-links li:last-of-type {
+    margin-bottom: 20px;
+}
+
+.social-links svg {
+    width: 18px;
+	height: 18px;
+	fill: currentcolor;
+    vertical-align: middle;
+}
+
+.social-links svg:hover {
+	color: #64ffda;
+	cursor: pointer;
+
+	/* display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(4px) translateZ(0);
+    transform: perspective(4px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	
+	margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: antialiased; */
+}
