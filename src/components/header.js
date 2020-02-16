@@ -5,6 +5,7 @@ import "../styles/layout.css"
 import Game from "../images/tower-pc.png"
 import Button from "../components/button"
 import $ from "jQuery"
+import IconLogo from "./icon/tenyson"
 
 
 $(window).scroll(function() {    
@@ -26,7 +27,10 @@ const Header = () => (
 	  <nav className="navbar">
 
 		<div className="nav-left-section">
-			<img style = {{ height: "50px", width: "50px", padding: "12px" }} src={ Game }/>
+			<a href=".">
+				{/* <img style = {{ height: "50px", width: "50px", padding: "12px" }} src={ Game }/> */}
+				<IconLogo />
+			</a>
 		</div>
 		
 		<div className="nav-right-section">
@@ -39,9 +43,6 @@ const Header = () => (
 				</li>
 				<li className="header-text">
 					<a href="/#work">Work</a>
-				</li>
-				<li className="header-text">
-					<a href="/#contact">Contact</a>
 				</li>
 			</ol>
 			<div>
