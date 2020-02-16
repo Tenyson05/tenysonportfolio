@@ -116,6 +116,15 @@
 	box-shadow: 0 0 1px #172a45;
 	-webkit-font-smoothing: antialiased;
 	transition-duration: 0.5s;
-	
-	
+}
+
+.card-img svg {
+	width: 40px;
+	height: 40px;
+	fill: currentcolor;
+    vertical-align: middle;
+}
+
+.card-img svg:hover {
+	color: #64FFDA;
 }
