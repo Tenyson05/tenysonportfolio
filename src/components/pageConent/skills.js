@@ -39,6 +39,8 @@ const skills = () => (
 					<img src={ Mysql } alt="Mysql" title="MySQL"/>
 					<img src={ Figma } alt="Figma" title="Figma"/>
 					
+
+					
 				</div>
 				<div className="icon-row">
 					<img src={ Flutter } alt="Flutter" title="Flutter"/>
