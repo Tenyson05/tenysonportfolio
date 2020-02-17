@@ -44,4 +44,10 @@ div[role="group"][tabindex] {
 		/* width: 100%; */
 	}
 } 
+
+@media(max-width: 768px) {
+	#root{
+		font-size: 18px;
+	}
+}
 	
