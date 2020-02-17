@@ -4,12 +4,12 @@
     min-height: 100vh
 }
 
-#root {
+/* #root {
     min-height: 100vh;
     display: grid;
     grid-template-rows: 1fr auto;
     grid-template-columns: 100%;
-}
+} */
 
 .main {
 	width: 100%;
@@ -150,12 +150,6 @@ section {
 		font-size: 46px;
 	}
 } */
-
-@media(max-width: 768px) {
-	#root{
-		font-size: 18px;
-	}
-}
 
 @media(max-width: 768px) {
 	.side-links {
