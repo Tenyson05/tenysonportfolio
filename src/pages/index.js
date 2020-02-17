@@ -15,7 +15,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Tenyson" />
 	<Homepage />
-	{/* <SideBar /> */}
 	<About />
 	<Skills />
 	<Work />
