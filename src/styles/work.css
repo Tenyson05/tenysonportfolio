@@ -1,20 +1,6 @@
 /* Work page styling start */
 
 .work {
-	/* border: 1px solid;
-	flex-direction: column;
-	max-width: 1300px;
-	max-height: 2000px;
-	display: block;
-	position: relative;
-	justify-content: center;
-	align-items: flex-start;
-	padding: 20px;
-	margin: 0px auto;
-	margin-bottom: 20px;
-	min-height: 50px;
-	height: 900px; */
-
 	max-width: 1000px;
     display: flex;
     -webkit-box-pack: center;
