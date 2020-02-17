@@ -11,7 +11,7 @@ const homePage = () => (
 		
 		<div  className="desc">
 			<p>
-				Lorem ipsum dolor sit amet, consectetur Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.
+				Lorem ipsum dolor sit amet, consectetur Curabitur egestas vehiras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.
 			</p>
 		</div>
 		<div>
