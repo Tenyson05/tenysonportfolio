@@ -132,7 +132,6 @@ section {
 	.main-window {
 		width: 100%;
 		overflow: hidden;
-		cursor: crosshair;
 	}
 }
 
