@@ -3,25 +3,31 @@ import React from "react"
 import "../styles/hamburger.css"
 
 import Button from "./button"
+import $ from "jQuery"
 
 const sideBar = props => {
 	let sidebarMenu = "sidebar-menu"
 	if(props.show) {
 		sidebarMenu = "sidebar-menu open";
 	}
+	$('.side-list-item').click(function() {
+		window.alert("kfffd")
+		// $(this.sidebarMenu).toggleClass('hamburger-sub');
+
+	});
 	return (
 		<div className={sidebarMenu}>
 			<aside className="side-menu">
 				<nav className="side-nav">
 					<ol className="side-list">
 						<li className="side-list-item">
-							<a href="/#about">About</a>
+							<a href="/#about" >About</a>
 						</li>
 						<li className="side-list-item">
-							<a href="/#about">Skills</a>
+							<a href="/#skills">Skills</a>
 						</li>
 						<li className="side-list-item">
-							<a href="/#about">Work</a>
+							<a href="/#work">Work</a>
 						</li>
 					</ol>
 					<a href=".">
