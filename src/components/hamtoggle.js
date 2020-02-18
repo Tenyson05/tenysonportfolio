@@ -32,10 +32,3 @@ const hamToggle = props => {
 
 export default hamToggle;
 
-{/* <div className="hamburger">
-			<div className="hamburger-list">
-				<div className="hamburger-sub">
-					
-				</div>
-			</div>
-		</div> */}
