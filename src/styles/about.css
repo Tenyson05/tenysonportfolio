@@ -64,8 +64,8 @@
 	overflow: visible;
 }
 
-.about-info > p {
-	color: #e6f1ff;
+.about-info p {
+	color: #8892b0;
 	display: inline-block;
 	width: 50%;
 	margin-right: 50px;
@@ -148,4 +148,20 @@ a {
     cursor: pointer;
     text-decoration: none;
     /* transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s; */
+}
+
+@media(max-width: 768px) {
+	.about-info {
+		display: block;
+	}
+
+	.about-info p {
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.about-img {
+		width: 80%;
+		margin-left: 40px;
+	}
 }
