@@ -46,6 +46,25 @@
     max-width: 500px;
 }
 
+@media(max-width: 768px) {
+	.homepage-greet {
+		font-size: 13px;
+	}
+	.homepage-name {
+		font-size: 35px;
+		font-weight: bold;
+	}
+	.homepage-desc {
+		font-size: 30px;
+	}
+	.desc {
+		margin-top: 0px;
+		font-size: 18px;
+		width: 100%;
+	}
+}
+
+
 /* a {
     display: inline-block;
     text-decoration-skip-ink: auto;
