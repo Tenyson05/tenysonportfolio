@@ -17,15 +17,30 @@
 }
 
 .icon-row {
-	display: flex;
-	flex-direction: row;
+	display: block;
+	/* flex-direction: row; */
+	white-space: normal;
 }
 
-.icon-row>img{
-	margin: 30px;
+.icon-row img{
+	margin: 26px;
 	width: 80px;
 	height: 80px;
 	position: relative;
+}
+
+@media(max-width: 768px){
+	.icon-row {
+		display: block;
+	}
+
+	.icon-row img {
+		margin: 15px;
+		width: 40px;
+		height: 40px;
+		position: none;
+	}
+
 }
 
 
