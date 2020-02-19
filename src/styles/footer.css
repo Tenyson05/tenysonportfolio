@@ -1,0 +1,65 @@
+.pagefooter {
+	display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(2, 12, 27);
+    color: rgb(136, 146, 176);
+    text-align: center;
+    height: auto;
+    min-height: 70px;
+    padding: 15px;
+}
+
+.inspire {
+	display: block;
+	white-space: pre-wrap;
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: 12px;
+    line-height: 0.2;
+}
+
+.inspire-links {
+	color: rgb(136, 146, 176);
+    padding: 10px;
+}
+
+.bottom-inspire {
+	margin-top: 10px;
+}
+
+a:hover {
+	color: #64ffda;
+}
+
+.footer-icons {
+	color: rgb(168, 178, 209);
+    width: 100%;
+    max-width: 270px;
+    display: none;
+    margin: 0px auto 5px;
+}
+
+.footer-icon-list {
+	display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.icons {
+	width: 25px;
+	height: 25px;
+}
+
+@media(max-width: 786px) {
+	.footer-icons {
+		display: inline;
+	}
+}
