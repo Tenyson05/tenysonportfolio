@@ -38,11 +38,22 @@ const skills = () => (
 					<img src={ Azure } alt="Azure" title="Azure"/>
 					<img src={ Mysql } alt="Mysql" title="MySQL"/>
 					<img src={ Figma } alt="Figma" title="Figma"/>
-					
-
-					
+					<img src={ Flutter } alt="Flutter" title="Flutter"/>
+					<img src={ Gatsby } alt="Gatsby" title="Gatsby"/>
+					<img src={ Gitlab } alt="Gitlab" title="GitLab"/>
+					<img src={ Github } alt="Github" title="Github"/>
+					<img src={ Linux } alt="Linux" title="Linux"/>
+					<img src={ Metasploit } alt="Metasploit" title="Metasploit"/>
+					<img src={ nginx } alt="nginx" title="Nginx"/>
+					<img src={ Nodejs } alt="Nodejs" title="Nodejs"/>
+					<img src={ Postman } alt="Postman" title="Postman"/>
+					<img src={ Powershell } alt="Powershell" title="Powershell"/>
+					<img src={ Python } alt="Python" title="Python"/>
+					<img src={ react } alt="react" title="React"/>
+					<img src={ JS } alt="JavaScript" title="JavaScript"/>
+					<img src={ Arduino } alt="Arduino" title="Arduino"/>
 				</div>
-				<div className="icon-row">
+				{/* <div className="icon-row">
 					<img src={ Flutter } alt="Flutter" title="Flutter"/>
 					<img src={ Gatsby } alt="Gatsby" title="Gatsby"/>
 					<img src={ Gitlab } alt="Gitlab" title="GitLab"/>
@@ -59,7 +70,7 @@ const skills = () => (
 					<img src={ react } alt="react" title="React"/>
 					<img src={ JS } alt="JavaScript" title="JavaScript"/>
 					<img src={ Arduino } alt="Arduino" title="Arduino"/>
-				</div>
+				</div> */}
 				
 			</div>
 		</div>
