@@ -14,7 +14,7 @@ const homePage = () => (
 				Lorem ipsum dolor sit amet, consectetur Curabitur egestas vehiras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.
 			</p>
 		</div>
-		<div>
+		<div className="homepage-button"> 
 			<a href="mailto:rojahog@hotmail.com">
 				<Button 
 				size="2em 3em"
