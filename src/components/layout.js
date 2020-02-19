@@ -10,10 +10,12 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "./footer"
 import "../styles/main.css"
 import Github from "./icon/github"
 import LinkedIn from "./icon/linkedin"
 import Twitter from "./icon/twitter"
+import Gitlab from "./icon/gitlab"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -48,10 +50,23 @@ const Layout = ({ children }) => {
 								<LinkedIn />
 							</a>
 						</li>
+						<li>
+							<a  href="https://www.linkedin.com/in/rojah-lewis-9652ab15b/" target="_blank" className="list-icon" rel="nofollow nooperner noreferrer" >
+								<Gitlab />
+							</a>
+						</li>
 					</ul>
+				</div>
+				<div className="side-section">
+					<div className="side-email">
+						<a href="mailto:Rojahoh@hotmail.com" className="email-link">
+							Rojahog@hotmail.com
+						</a>
+					</div>
 				</div>
 				<div id="content">
 					<main className="main fillHeight">{children}</main>
+					<Footer />
 				</div>
 				
 			</div>
