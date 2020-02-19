@@ -47,7 +47,6 @@ class Header extends Component {
 
 					<div className="nav-left-section">
 						<a href=".">
-							{/* <img style = {{ height: "50px", width: "50px", padding: "12px" }} src={ Game }/> */}
 							<IconLogo />
 						</a>
 					</div>
@@ -57,7 +56,7 @@ class Header extends Component {
 					<div className="nav-right-section">
 						<ol className="header-list">
 							<li className="header-text">
-								<a href="/#about">About</a>
+								<a href="/#about" >About</a>
 							</li>
 							<li className="header-text">
 								<a href="/#skills">Skills</a>
@@ -67,7 +66,7 @@ class Header extends Component {
 							</li>
 						</ol>
 						<div>
-							<a href="https://www.twitch.tv/pwnstarzdotcom">
+							<a href="https://www.twitch.tv/pwnstarzdotcom" rel="nofollow nooperner noreferrer" target="_blank">
 								<Button
 									size="0.6em 2em"
 									go="/home"
