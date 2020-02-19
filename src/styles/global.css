@@ -10,8 +10,9 @@ html {
 	box-sizing: border-box;
 	width: 100%;
 	display: block;
-
+	scroll-behavior: smooth;
 }
+
 
  body {
 	width: 100%;
