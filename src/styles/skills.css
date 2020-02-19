@@ -2,7 +2,21 @@
 	max-width: 1000px;
     position: relative;
     margin: 0px auto;
-    padding: 150px 0px;
+	padding: 150px 0px;
+	animation: onload 1.5s;
+	animation-delay: 1.8s;
+	animation-fill-mode: backwards;
+}
+
+@keyframes onload {
+	0% {
+		transform: translateY(-120px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
 }
 
 .skills-center  {
