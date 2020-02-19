@@ -9,8 +9,23 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 0px auto;
-    padding: 150px 0px;
+	padding: 150px 0px;
+	animation: onload 1.5s;
+	animation-delay: 2.3s;
+	animation-fill-mode: backwards;
 }
+
+@keyframes onload {
+	0% {
+		transform: translateY(-120px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
 
 .sub-work {
 	margin-top: 50px;
