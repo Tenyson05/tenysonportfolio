@@ -8,10 +8,10 @@ import Button from "../components/button"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
-import jQuery from "jquery";
+import jquery from "jquery";
 
 
-var $ = require("jQuery");
+var $ = require("jquery");
 
 
 // const window = typeof window !== `undefined` ? require("module") : null
