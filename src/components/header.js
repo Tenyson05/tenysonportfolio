@@ -8,6 +8,8 @@ import Button from "../components/button"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
+import jQuery from "jquery";
+
 
 var $ = require("jQuery");
 
