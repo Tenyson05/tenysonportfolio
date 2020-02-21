@@ -9,7 +9,8 @@ import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
 
-var $ = require('jquery');
+var $ = require("jQuery");
+
 
 // const window = typeof window !== `undefined` ? require("module") : null
 
