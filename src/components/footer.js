@@ -4,7 +4,6 @@ import "../styles/footer.css"
 import Github from  "../components/icon/github"
 import Twitter from "../components/icon/twitter"
 import LinkedIn from "../components/icon/linkedin"
-import Gitlab from "../components/icon/gitlab"
 
 const footer = () => (
 	<footer className="pagefooter">
