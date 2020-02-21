@@ -2,7 +2,7 @@
 import React, { Component } from "react"
 import "../styles/layout.css"
 
-import Game from "../images/tower-pc.png"
+// import Game from "../images/tower-pc.png"
 import Button from "../components/button"
 import $ from "jQuery"
 import IconLogo from "./icon/tenyson"

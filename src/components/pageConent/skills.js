@@ -8,7 +8,7 @@ import Azure from "../../images/Azure.svg";
 import Figma from "../../images/Figma.svg";
 import Flutter from "../../images/flutter.svg";
 import Gatsby from "../../images/gatsby.png";
-import Gitlab from "../../images/Gitlab.png";
+import Gitlab from "../../images/GitLab.png";
 import Linux from "../../images/linux.svg";
 import Mysql from "../../images/mysql.svg";
 import nginx from "../../images/nginx.svg";

@@ -1,7 +1,7 @@
 import React from "react"
 
 import "../styles/hamburger.css"
-import $ from "jQuery"
+// import $ from "jQuery"
 // var $ = require('jquery');
 
 // remember to try somethyign out with JQuery eventlistener on click
