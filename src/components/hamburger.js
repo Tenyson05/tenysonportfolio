@@ -3,7 +3,6 @@ import React from "react"
 import "../styles/hamburger.css"
 
 import Button from "./button"
-// import $ from "jQuery"
 
 const sideBar = props => {
 	let sidebarMenu = "sidebar-menu"
