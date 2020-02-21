@@ -1,12 +1,12 @@
 import React from "react"
 
 import "../styles/hamburger.css"
-import $ from "jQuery"
+// import $ from "jQuery"
+var $ = require('jquery');
 
 // remember to try somethyign out with JQuery eventlistener on click
 
 const hamToggle = props => {
-	let hamburg;
 	if(props.sidebarclicker) {
 		$('.hamburger-sub').toggleClass('hamburger-sub-open');
 	}else {
