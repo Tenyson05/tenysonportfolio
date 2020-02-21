@@ -15,7 +15,6 @@ import "../styles/main.css"
 import Github from "./icon/github"
 import LinkedIn from "./icon/linkedin"
 import Twitter from "./icon/twitter"
-import Gitlab from "./icon/gitlab"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -48,11 +47,6 @@ const Layout = ({ children }) => {
 						<li>
 							<a  href="https://www.linkedin.com/in/rojah-lewis-9652ab15b/" target="_blank" className="list-icon" rel="nofollow nooperner noreferrer" >
 								<LinkedIn />
-							</a>
-						</li>
-						<li>
-							<a  href="https://www.linkedin.com/in/rojah-lewis-9652ab15b/" target="_blank" className="list-icon" rel="nofollow nooperner noreferrer" >
-								<Gitlab />
 							</a>
 						</li>
 					</ul>
