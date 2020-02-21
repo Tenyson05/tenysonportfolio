@@ -4,20 +4,20 @@ import "../styles/layout.css"
 
 import Game from "../images/tower-pc.png"
 import Button from "../components/button"
-// import $ from "jQuery"
+import $ from "jQuery"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
 
-var $ = require('jquery');
+// var $ = require('jquery');
 
 // const window = typeof window !== `undefined` ? require("module") : null
 
 class Header extends Component {
 
 	componentDidMount() {
-		$(window.document).scroll(function() {    
-			var scroll = $(window.document).scrollTop();
+		$(window).scroll(function() {    
+			var scroll = $(window).scrollTop();
 		
 			if (scroll >= 200) {
 				$(".main-header").addClass("main-header-alt");

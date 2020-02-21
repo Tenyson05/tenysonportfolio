@@ -6,7 +6,7 @@ import Button from "../button"
 const homePage = () => (
 	<section id="home" className="homepage">
 		<h1 className="homepage-greet">Hi, my name is,</h1 >
-		<h2 className="homepage-name">Rojah Lewis[Tenyson05].</h2 >
+		<h2 className="homepage-name">Rojah Lewis.</h2 >
 		<h3 className="homepage-desc">Developer, Tech & Cyber Security enthusiast</h3>
 		
 		<div  className="desc">
