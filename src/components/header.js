@@ -4,12 +4,12 @@ import "../styles/layout.css"
 
 // import Game from "../images/tower-pc.png"
 import Button from "../components/button"
-import $ from "jQuery"
+// import $ from "jQuery"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
 
-// var $ = require('jquery');
+var $ = require('jquery');
 
 // const window = typeof window !== `undefined` ? require("module") : null
 
