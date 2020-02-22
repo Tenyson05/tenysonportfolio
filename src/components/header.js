@@ -2,18 +2,13 @@
 import React, { Component } from "react"
 import "../styles/layout.css"
 
-// import Game from "../images/tower-pc.png"
 import Button from "../components/button"
-// import $ from "jQuery"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
 
 
 var $ = require("jquery");
-
-
-// const window = typeof window !== `undefined` ? require("module") : null
 
 class Header extends Component {
 
@@ -38,16 +33,7 @@ class Header extends Component {
 			return {sideDrawOpen: !prevState.sideDrawOpen};
 		});
 	};
-
-	// drawerCloser = () => {
-	// 	this.setState({sideDrawOpen: false});
-	// }
-
-	render() {
-		// let sideDrawer;
-		// if (this.state.sideDrawOpen) {
-		// 	sideDrawer = <SideBar />
-		// } 	
+	render() {	
 		return (
 			<header className="main-header">
 				<nav className="navbar">
@@ -89,14 +75,5 @@ class Header extends Component {
 		)
 	}
 } 
-  
-
-// Header.propTypes = {
-//   siteTitle: PropTypes.string,
-// }
-
-// Header.defaultProps = {
-//   siteTitle: ``,
-// }
 
 export default Header;

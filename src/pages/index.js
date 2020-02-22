@@ -9,8 +9,6 @@ import Skills from "../components/pageConent/skills"
 import Work from "../components/pageConent/work"
 import SideBar from "../components/hamburger"
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Tenyson" />

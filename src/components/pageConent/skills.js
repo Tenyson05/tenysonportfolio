@@ -27,7 +27,7 @@ import "../../styles/layout.css"
 
 const skills = () => (
 	<section id="skills" className="skills">
-		<h3 className="page-heading">My Skills</h3>
+		<h3 className="page-heading">Skills &#38; Tools</h3>
 		<div className="skills-center">
 			<div className="tools">
 				<div className="icon-row">
@@ -52,30 +52,10 @@ const skills = () => (
 					<img src={ react } alt="react" title="React"/>
 					<img src={ JS } alt="JavaScript" title="JavaScript"/>
 					<img src={ Arduino } alt="Arduino" title="Arduino"/>
-				</div>
-				{/* <div className="icon-row">
-					<img src={ Flutter } alt="Flutter" title="Flutter"/>
-					<img src={ Gatsby } alt="Gatsby" title="Gatsby"/>
-					<img src={ Gitlab } alt="Gitlab" title="GitLab"/>
-					<img src={ Github } alt="Github" title="Github"/>
-					<img src={ Linux } alt="Linux" title="Linux"/>
-					<img src={ Metasploit } alt="Metasploit" title="Metasploit"/>
-					<img src={ nginx } alt="nginx" title="Nginx"/>
-				</div>
-				<div className="icon-row">
-					<img src={ Nodejs } alt="Nodejs" title="Nodejs"/>
-					<img src={ Postman } alt="Postman" title="Postman"/>
-					<img src={ Powershell } alt="Powershell" title="Powershell"/>
-					<img src={ Python } alt="Python" title="Python"/>
-					<img src={ react } alt="react" title="React"/>
-					<img src={ JS } alt="JavaScript" title="JavaScript"/>
-					<img src={ Arduino } alt="Arduino" title="Arduino"/>
-				</div> */}
-				
+				</div>				
 			</div>
 		</div>
 		
 	</section>
 )
-
 export default skills

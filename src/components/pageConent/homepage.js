@@ -7,8 +7,7 @@ const homePage = () => (
 	<section id="home" className="homepage">
 		<h1 className="homepage-greet">Hi, my name is,</h1 >
 		<h2 className="homepage-name">Rojah Lewis.</h2 >
-		<h3 className="homepage-desc">Developer, Tech & Cyber Security enthusiast</h3>
-		
+		<h3 className="homepage-desc">Developer, Tech &#38; Cyber Security enthusiast</h3>
 		<div  className="desc">
 			<p>
 				I'm a software developer and a Technology and Cyber security enthusiast. I enjoy making websites, 
@@ -22,11 +21,8 @@ const homePage = () => (
 				label="Get In Touch "
 				/>
 			</a>
-		
 		</div>
-		
-	</section>
-	
+	</section>	
 )
 
 export default homePage;

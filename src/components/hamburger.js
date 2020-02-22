@@ -9,10 +9,6 @@ const sideBar = props => {
 	if(props.show) {
 		sidebarMenu = "sidebar-menu open";
 	}
-	// $('.side-list-item').click(function() {
-	// 	$(this.sidebarMenu).toggleClass('hamburger-sub');
-
-	// });
 	return (
 		<div className={sidebarMenu}>
 			<aside className="side-menu">

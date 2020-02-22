@@ -10,7 +10,7 @@ const footer = () => (
 		<div className="footer-icons">
 			<ul className="footer-icon-list">
 				<li>
-					<a className="icons" href="https://github.com/Tenyson05" target="_blank" rel="nofollow nooperner noreferrer" >
+					<a className="icons" href="https://github.com/Tenyson05"  target="_blank" rel="nofollow nooperner noreferrer" >
 						<Github />
 					</a>
 				</li>

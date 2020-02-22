@@ -19,9 +19,7 @@ const work = () => (
 							</a>
 						</div>
 						<div className="card-info">
-							
 							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
-
 						</div>
 					</header>
 					<footer>

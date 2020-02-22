@@ -5,9 +5,7 @@ import "../styles/layout.css";
 
 const button = (props) => (
 	<Button className="button-layout" 
-		to={props.go}
 		style={{ padding: props.size}}
-		
 		>
 		{props.label}
 	</Button>
