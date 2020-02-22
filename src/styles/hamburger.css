@@ -30,7 +30,7 @@
 
 
 .hamburger-sub {
-	background-color: rgb(100, 255, 218);
+	background-color: #64ffda;
     position: absolute;
     width: 30px;
     height: 2px;
@@ -50,7 +50,7 @@
 .hamburger-sub::before, .hamburger-sub::after {
 	content: "";
     display: block;
-    background-color: rgb(100, 255, 218);
+    background-color: #64ffda;
     position: absolute;
     left: auto;
     right: 0px;
@@ -78,7 +78,7 @@
 }
 
 .hamburger-sub-open {
-	background-color: rgb(100, 255, 218);
+	background-color: #64ffda;
     position: absolute;
     width: 30px;
     height: 2px;
@@ -96,7 +96,7 @@
 .hamburger-sub-open::before, .hamburger-sub-open::after {
 	content: "";
     display: block;
-    background-color: rgb(100, 255, 218);
+    background-color: #64ffda;
     position: absolute;
     left: auto;
     right: 0px;
@@ -152,12 +152,6 @@
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
-/* @media (max-width: 48em)
-{
-.sidebar-menu {
-    display: block;
-	}
-} */
 
 .side-menu {
 	display: flex;
@@ -166,14 +160,14 @@
     -webkit-box-align: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(23, 42, 69);
+    background-color: #172a45;
     width: 50vw;
     height: 100%;
     position: relative;
     right: 0px;
     margin-left: auto;
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
-    box-shadow: rgba(2, 12, 27, 0.7) -10px 0px 30px -15px;
+    box-shadow:  #010b1a -10px 0px 30px -15px;
     padding: 50px;
 }
 
@@ -186,7 +180,7 @@
     width: 100%;
     flex-direction: column;
     text-align: center;
-    color: rgb(204, 214, 246);
+    color: #ccd6f6;
 }
 
 .side-list {
@@ -206,7 +200,7 @@
 .side-list-item::before {
 	display: block;
     content: "0" counter(item) ".";
-    color: rgb(100, 255, 218);
+    color: #64ffda;
     font-size: 14px;
     margin-bottom: 5px;
 }

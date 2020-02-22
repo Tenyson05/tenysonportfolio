@@ -1,5 +1,3 @@
-/* Work page styling start */
-
 .work {
 	max-width: 1000px;
     display: flex;
@@ -39,7 +37,7 @@
 }
 
 .project-cards {
-	box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
+	box-shadow:  #010b1a 0px 10px 30px -15px;
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
@@ -48,7 +46,7 @@
     align-items: flex-start;
     position: relative;
     height: 100%;
-    background-color: rgb(23, 42, 69);
+    background-color: #172a45;
     padding: 2rem 1.75rem;
     border-radius: 3px;
 }
@@ -75,14 +73,8 @@
 
 .card-info {
 	font-size: 17px;
-    color: rgb(168, 178, 209);
+    color: #a8b2d1;
 }
-
-/* .card-icon {
-	position: relative;
-    top: -10px;
-    padding: 10px;
-} */
 
 .card-content {
 	text-indent: 0;

@@ -33,7 +33,7 @@
 	left: 40px;
 	right: auto;
 	z-index: 10;
-	color: rgb(168, 178, 209);
+	color: #a8b2d1;
 }
 
 .social-links {
@@ -82,7 +82,7 @@ li {
     display: block;
     width: 1px;
     height: 90px;
-    background-color: rgb(168, 178, 209);
+    background-color: #a8b2d1;
     margin: 0px auto;
 }
 
@@ -132,7 +132,7 @@ li {
     left: auto;
     right: 40px;
     z-index: 10;
-    color: rgb(168, 178, 209);
+    color: #a8b2d1;
 }
 
 .side-email {
@@ -172,7 +172,7 @@ li {
     display: block;
     width: 1px;
     height: 90px;
-    background-color: rgb(168, 178, 209);
+    background-color: #a8b2d1;
     margin: 0px auto;
 }
 
