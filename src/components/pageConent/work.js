@@ -19,13 +19,13 @@ const work = () => (
 							</a>
 						</div>
 						<div className="card-info">
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">QR code scanner for android made with the QR Code Scanner</p>
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
-							<li>Express</li>
+							<li>Flutter</li>
+							<li>Dart</li>
 							<li>MySQL</li>
 						</ul>
 					</footer>
@@ -40,14 +40,14 @@ const work = () => (
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">My resume in the form of a player card</p>
 
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
-							<li>Express</li>
+							<li>React</li>
+							<li>JS</li>
 							<li>MySQL</li>
 						</ul>
 					</footer>
@@ -62,14 +62,14 @@ const work = () => (
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">A netflix UI clone for android.</p>
 
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
-							<li>Express</li>
+							<li>Flutter</li>
+							<li>Dart</li>
 							<li>MySQL</li>
 						</ul>
 					</footer>
@@ -84,14 +84,14 @@ const work = () => (
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">AI system capable of diagnosing pneumonia</p>
 
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
-							<li>Express</li>
+							<li>Python</li>
+							<li>Jupyter</li>
 							<li>MySQL</li>
 						</ul>
 					</footer>
@@ -106,13 +106,13 @@ const work = () => (
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">Halite 2019 challenge bot create and base on Semtex(Youtuber) halite bot and was then transform with AI properties. </p>
 
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
+							<li>Python</li>
 							<li>Express</li>
 							<li>MySQL</li>
 						</ul>
@@ -128,15 +128,15 @@ const work = () => (
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">consectetur adipiscing elit. Cras ultricies ultricies turpis, a posuere nisi ullamcorper id. Curabitur egestas vehicula nibh non tincidunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ultricies turpis,</p>
+							<p className="card-content">Personal portolio</p>
 
 						</div>
 					</header>
 					<footer>
 						<ul className="foot-info">
-							<li>Nodejs</li>
-							<li>Express</li>
-							<li>MySQL</li>
+							<li>Reactjs</li>
+							<li>Gatsby</li>
+							<li>CSS</li>
 						</ul>
 					</footer>
 				</div>
