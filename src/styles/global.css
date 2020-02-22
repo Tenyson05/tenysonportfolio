@@ -42,7 +42,6 @@ div[role="group"][tabindex] {
  @media (max-width: 768px){
 	body {
 		font-size: 18px;
-		/* width: 100%; */
 	}
 } 
 
