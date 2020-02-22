@@ -6,6 +6,7 @@ import Button from "../components/button"
 import IconLogo from "./icon/tenyson"
 import HamToggle from "./hamtoggle"
 import SideBar from "./hamburger"
+import Pdf from './resume.pdf'
 
 
 var $ = require("jquery");
@@ -59,7 +60,7 @@ class Header extends Component {
 							</li>
 						</ol>
 						<div>
-							<a href="https://www.twitch.tv/pwnstarzdotcom" rel="nofollow nooperner noreferrer" target="_blank">
+							<a href={ Pdf } rel="nofollow nooperner noreferrer" target="_blank">
 								<Button
 									size="0.6em 2em"
 									go="/home"
