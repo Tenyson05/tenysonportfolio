@@ -26,7 +26,7 @@ const work = () => (
 						<ul className="foot-info">
 							<li>Flutter</li>
 							<li>Dart</li>
-							<li>MySQL</li>
+							<li>Android Studio</li>
 						</ul>
 					</footer>
 				</div>
@@ -48,7 +48,7 @@ const work = () => (
 						<ul className="foot-info">
 							<li>React</li>
 							<li>JS</li>
-							<li>MySQL</li>
+							<li>CSS</li>
 						</ul>
 					</footer>
 				</div>
@@ -70,7 +70,7 @@ const work = () => (
 						<ul className="foot-info">
 							<li>Flutter</li>
 							<li>Dart</li>
-							<li>MySQL</li>
+							<li>Android Studio</li>
 						</ul>
 					</footer>
 				</div>
@@ -92,7 +92,6 @@ const work = () => (
 						<ul className="foot-info">
 							<li>Python</li>
 							<li>Jupyter</li>
-							<li>MySQL</li>
 						</ul>
 					</footer>
 				</div>
@@ -113,8 +112,6 @@ const work = () => (
 					<footer>
 						<ul className="foot-info">
 							<li>Python</li>
-							<li>Express</li>
-							<li>MySQL</li>
 						</ul>
 					</footer>
 				</div>
