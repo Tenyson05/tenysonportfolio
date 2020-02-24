@@ -3,6 +3,7 @@ import React from "react"
 import "../styles/hamburger.css"
 
 import Button from "./button"
+import Pdf from './resume.pdf'
 
 const sideBar = props => {
 	let sidebarMenu = "sidebar-menu"
@@ -24,7 +25,7 @@ const sideBar = props => {
 							<a href="/#work">Work</a>
 						</li>
 					</ol>
-					<a href=".">
+					<a href={ Pdf } rel="nofollow nooperner noreferrer" target="_blank">
 						<Button
 							size="2em 3em"
 							label="Resume"
