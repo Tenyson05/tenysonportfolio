@@ -12,8 +12,8 @@ const about = () => (
 			A final year university student studying computer science at the University of Technology, Jamaica and aspiring 
 			cybersecurity analytics. I enjoy the bridge between being a developer and cybersecurity enthusiast which allows me 
 			to develop apps/software and websites while keeping them secure or defending myself against cyber threats. 
-			I hope to extend my cyber skills to companies in the future. In my spear time, I love to learn about technology,
-			learn how they work and how they are made as well as play video games or watch anime. My ultimate goal is to become
+			I hope to extend my cyber skills to companies in the future. During my spare time I enjoy learning about technology,
+			play video games or watch anime. My ultimate goal is to become
 			a game developer, develop a virtual world that allows the player to be in total control as well as 
 			to operate my own startup company.
 
