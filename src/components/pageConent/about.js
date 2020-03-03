@@ -16,7 +16,7 @@ const about = () => (
 			a game developer and develop a virtual world that grants users total control over their environment.
 			</p>
 			<div className="about-img">
-				<a href="https://google.com" className="img-link">
+				<a href="https://github.com/Tenyson05" className="img-link">
 					<div className="sub-about-img">
 					<div style={{width: "100%", paddingBottom: "100%"}}></div>
 					<picture>
