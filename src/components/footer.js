@@ -27,10 +27,10 @@ const footer = () => (
 			</ul>	
 		</div>
 		<div className="inspire">
-			<a href="https://brittanychiang.com/" className="inspire-links">
+			{/* <a href="https://brittanychiang.com/" className="inspire-links">
 				<div>Inspired by BrittanyChiang.com</div>
-			</a>
-			<br />
+			</a> */}
+			{/* <br /> */}
 			<a href="https://www.flaticon.com/" className="inspire-links">
 				<div className="bottom-inspire">Icons taken from flaticon.com</div>
 			</a>
