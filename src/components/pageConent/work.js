@@ -14,7 +14,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>QR Code Scanner</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/QR-code-scanner">
+							<a className="card-img" href="https://github.com/Tenyson05/QR-code-scanner" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
@@ -34,7 +34,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Resume</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/resume">
+							<a className="card-img" href="https://github.com/Tenyson05/resume" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
@@ -56,7 +56,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Netflix Clone</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/NetflixClone">
+							<a className="card-img" href="https://github.com/Tenyson05/NetflixClone" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
@@ -78,7 +78,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>AI Pneumonia system</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/AI-pneumonia-expert-system">
+							<a className="card-img" href="https://github.com/Tenyson05/AI-pneumonia-expert-system" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
@@ -99,7 +99,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Halite 2019 bot</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/HaliteChallenge2019">
+							<a className="card-img" href="https://github.com/Tenyson05/HaliteChallenge2019" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
@@ -119,7 +119,7 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Portflio</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/tenysonportfolio">
+							<a className="card-img" href="https://github.com/Tenyson05/tenysonportfolio" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
