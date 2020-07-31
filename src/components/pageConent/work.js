@@ -118,14 +118,14 @@ const work = () => (
 				<div className="project-cards">
 					<header>
 						<div className="card-heading">
-							<h1>Portflio</h1>
+							<h1>Portfolio</h1>
 							<a className="card-img" href="https://github.com/Tenyson05/tenysonportfolio" target="_blank" rel="nofollow nooperner noreferrer">
 								<IconGitHub />
 							</a>
 						</div>
 						<div className="card-info">
 							
-							<p className="card-content">Personal portolio</p>
+							<p className="card-content">Personal portfolio</p>
 
 						</div>
 					</header>
