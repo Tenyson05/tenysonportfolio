@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Tenyson`,
-    description: `Rojah portfolio Website - Developer, Technology and CyberSecurity enthusiast based in Jamaica`,
+    description: `portfolio Website - Developer, Technology and CyberSecurity enthusiast`,
     author: `Tenyson`,
   },
   plugins: [
