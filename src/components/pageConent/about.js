@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../styles/about.css"
-import teny from "../../images/me.jpg"
+import teny from "../../images/cybme.jpg"
 
 
 const about = () => (
