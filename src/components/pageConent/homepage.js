@@ -14,14 +14,6 @@ const homePage = () => (
 				software as well as learning about technology and Cybersecurity.
 			</p>
 		</div>
-		<div className="homepage-button"> 
-			<a href="mailto:rojahog@hotmail.com">
-				<Button 
-				size="2em 3em"
-				label="Get In Touch "
-				/>
-			</a>
-		</div>
 	</section>	
 )
 
