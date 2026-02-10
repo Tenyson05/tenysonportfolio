@@ -14,9 +14,6 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>QR Code Scanner</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/QR-code-scanner" target="_blank" rel="nofollow nooperner noreferrer">
-								<IconGitHub />
-							</a>
 						</div>
 						<div className="card-info">
 							<p className="card-content">QR code scanner for android made with the QR Code Scanner</p>
@@ -34,9 +31,6 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Resume</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/resume" target="_blank" rel="nofollow nooperner noreferrer">
-								<IconGitHub />
-							</a>
 						</div>
 						<div className="card-info">
 							
@@ -119,9 +113,6 @@ const work = () => (
 					<header>
 						<div className="card-heading">
 							<h1>Portfolio</h1>
-							<a className="card-img" href="https://github.com/Tenyson05/tenysonportfolio" target="_blank" rel="nofollow nooperner noreferrer">
-								<IconGitHub />
-							</a>
 						</div>
 						<div className="card-info">
 							
