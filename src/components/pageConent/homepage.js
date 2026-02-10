@@ -10,8 +10,7 @@ const homePage = () => (
 		<h3 className="homepage-desc">Developer, Technology &#38; Cybersecurity enthusiast</h3>
 		<div  className="desc">
 			<p>
-				I'm a software developer, Technology and Cybersecurity enthusiast. I enjoy making websites, apps, and 
-				software as well as learning about technology and Cybersecurity.
+				
 			</p>
 		</div>
 	</section>	
