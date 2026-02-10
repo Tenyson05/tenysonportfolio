@@ -11,7 +11,6 @@ import SideBar from "../components/hamburger"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Tenyson" />
 	<Homepage />
 	<About />
 	<Skills />
