@@ -15,16 +15,6 @@ const about = () => (
 			and threats. During my spare time, I enjoy coding, watching anime and playing videos. My final goal is to become 
 			a game developer and develop a virtual world that grants users total control over their environment.
 			</p>
-			<div className="about-img">
-				<a href="https://github.com/Tenyson05" className="img-link">
-					<div className="sub-about-img">
-					<div style={{width: "100%", paddingBottom: "100%"}}></div>
-					<picture>
-						<source type="image" srcset={ teny }></source>
-						<img className="avatar" src={ teny } />
-					</picture>
-					</div>	
-				</a>
 			</div>
 		</div>
 	</section>
